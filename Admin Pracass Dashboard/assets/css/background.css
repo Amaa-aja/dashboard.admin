@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 25px;
+  background-color: #4e4e4e;
+  background-size: cover;
+  background-position: center;
+}
+.login-box {
+  width: 300px;
+  margin: 100px auto;
+  padding: 90px 100px;
+  background: rgb(122, 122, 122);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+input[type=email], input[type=password] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  position: relative;
+  right: 10px;
+}
+button {
+    border: none;
+    overflow: none;
+    padding: 8px;
+    width: 270px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: #494846;
+    position: relative;
+    left: 15px;
+}
+
+ button:hover{
+    background-color: rgb(0, 0, 0);
+    transition: all 0.3s ease-in-out;
+  }
+
+.login-box h2{
+    text-align: center;
+    margin: 10px;
+    color: #ffffff;
+    font-family: "Montserrat", serif;
+}
+
+.error {
+  color: rgb(255, 255, 255);
+}
